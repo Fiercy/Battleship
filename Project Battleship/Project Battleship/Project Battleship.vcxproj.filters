@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="State Manager">
+      <UniqueIdentifier>{dab82362-f2bb-4a30-acbf-900eb7f655b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{deef8f34-7391-4fe8-82d4-c79fe56a9c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DirectXTK">
+      <UniqueIdentifier>{cae238f9-f227-4280-936a-8fb2684f0e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset Manager">
+      <UniqueIdentifier>{2f822275-1269-4655-9fc2-0ab11e12b0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{e0e2bde4-8790-4ca6-9fa9-c06d63ca3ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2950bc34-b7b4-4971-bda4-aa9e93a1fbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input Manager">
+      <UniqueIdentifier>{72409579-6a4c-45ad-b82e-eaf3a9412e7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="VSPlayerState.cpp">
+      <Filter>State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\BinaryReader.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\CommonStates.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\pch.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\SpriteBatch.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\SpriteFont.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxTK\VertexTypes.cpp">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SeaTile.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextLabel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateManager.h">
+      <Filter>State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="VSPlayerState.h">
+      <Filter>State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\AlignedNew.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\BinaryReader.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\CommonStates.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\ConstantBuffer.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\DemandCreate.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\DirectXHelpers.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\pch.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\PlatformHelpers.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\SharedResourcePool.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\SpriteBatch.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\SpriteFont.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectxTK\VertexTypes.h">
+      <Filter>Graphics\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Asset Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>Asset Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SeaTile.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextLabel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectxTK\SpriteEffect_SpritePixelShader.inc">
+      <Filter>Graphics\DirectXTK</Filter>
+    </None>
+    <None Include="DirectxTK\SpriteEffect_SpriteVertexShader.inc">
+      <Filter>Graphics\DirectXTK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
